@@ -173,43 +173,43 @@ body {
   align-items: center;
   padding-left: 3rem;
   transition: all .3s; }
-  .search:focus-within {
+.search:focus-within {
     transform: translateY(-2px);
     box-shadow: 0 0.7rem 3rem rgba(101, 90, 86, 0.08); }
-  .search__field {
+.search__field {
     border: none;
     background: none;
     font-family: inherit;
     color: inherit;
     font-size: 1.7rem;
     width: 30rem; }
-    .search__field:focus {
+.search__field:focus {
       outline: none; }
-    .search__field::placeholder {
+.search__field::placeholder {
       color: #DAD0CC; }
 
 .likes {
   position: relative;
   align-self: stretch;
   padding: 0 !important; }
-  .likes__field {
+.likes__field {
     cursor: pointer;
     padding: 0 4rem;
     display: flex;
     align-items: center;
     height: 100%;
     transition: all .3s; }
-    .likes__field:hover {
+.likes__field:hover {
       background-color: #F2EFEE; }
-  .likes__panel:hover,
-  .likes__field:hover + .likes__panel {
+.likes__panel:hover,
+.likes__field:hover + .likes__panel {
     visibility: visible;
     opacity: 1; }
-  .likes__icon {
+.likes__icon {
     fill: #F59A83;
     height: 3.75rem;
     width: 3.75rem; }
-  .likes__panel {
+.likes__panel {
     position: absolute;
     right: 0;
     top: 10rem;
