@@ -1,6 +1,10 @@
-// Global app controller
-import num from './test';
+// Global app controllor
 
-const x = 45;
+import {elements} from './views/base';
 
-console.log(`I imported ${num}from another module and the x value is ${x}`);
+
+elements.searchSubmit.addEventListener('submit',e=>{
+e.preventDefault();
+
+console.log(elements.searchInput.value);
+});

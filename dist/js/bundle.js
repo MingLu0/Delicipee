@@ -3561,7 +3561,7 @@ eval("/**\n * Copyright (c) 2014-present, Facebook, Inc.\n *\n * This source cod
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _test__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./test */ \"./src/js/test.js\");\n// Global app controller\n\nvar x = 45;\nconsole.log(\"I imported \".concat(_test__WEBPACK_IMPORTED_MODULE_0__[\"default\"], \"from another module and the x value is \").concat(x));\n\n//# sourceURL=webpack:///./src/js/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _test__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./test */ \"./src/js/test.js\");\n/* harmony import */ var _test__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_test__WEBPACK_IMPORTED_MODULE_0__);\n// Global app controller\n\nvar x = 45;\nconsole.log(\"I imported \".concat(_test__WEBPACK_IMPORTED_MODULE_0___default.a, \"from another module and the x value is \").concat(x));\n\n//# sourceURL=webpack:///./src/js/index.js?");
 
 /***/ }),
 
@@ -3569,11 +3569,10 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _tes
 /*!************************!*\
   !*** ./src/js/test.js ***!
   \************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
+/*! no static exports found */
+/***/ (function(module, exports) {
 
-"use strict";
-eval("__webpack_require__.r(__webpack_exports__);\nconsole.log('import module');\n/* harmony default export */ __webpack_exports__[\"default\"] = (12345);\n\n//# sourceURL=webpack:///./src/js/test.js?");
+eval("// console.log('import module');\n// export default 12345;\n\n//# sourceURL=webpack:///./src/js/test.js?");
 
 /***/ }),
 
